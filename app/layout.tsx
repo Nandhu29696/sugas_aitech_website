@@ -1,0 +1,21 @@
+import type { Metadata } from "next";
+// @ts-ignore: side-effect CSS import type declarations may not be present in this project
+import "./globals.css";
+import { Header } from "@/components/layout/Header";
+import { Footer } from "@/components/layout/Footer";
+
+export const metadata: Metadata = {
+  title: "Suga S AI Tech | Innovating Today, Intelligent Tomorrow",
+  description: "Suga S AI Tech builds intelligent digital solutions across AI, cloud, software, automation, and data analytics.",
+  icons: {
+    icon: "/images/hero-image.png",
+  },
+};
+
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return <html lang="en">
+    <body>
+      <Header />{children}<Footer />
+    </body>
+  </html>;
+}
