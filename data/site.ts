@@ -16,7 +16,10 @@ export const company = {
   location: "Coimbatore, India",
   copyright: `© ${new Date().getFullYear()} Suga S AI Tech `,
   footerTagline: "Building practical AI products for growth.",
-  social: { linkedin: "#", instagram: "#", facebook: "#" },
+  social: {
+    linkedin: "https://www.linkedin.com/company/suga-s-ai-tech/?viewAsMember=true",
+    instagram: "#", facebook: "#"
+  },
 };
 
 // ─── Navigation ──────────────────────────────────────────────────────────────
@@ -307,7 +310,7 @@ export const aboutPage = {
       summary: "Sets the vision, strategy and direction for Suga S AI Tech.",
       bio: "As the Chief Executive Officer of Suga S AI Tech, Sugasini M drives the company’s vision, business growth, and strategic direction. With a background in business and customer-focused operations, she brings strong capabilities in leadership, team management, client relationship management, and business development. She works closely with the technical leadership team to bridge business needs and technology, ensuring that Suga S AI Tech delivers practical, scalable, and impactful solutions for its clients.",
       image: "/images/suga.png",
-      linkedin: "https://www.linkedin.com/in/sugasini-m-539bab417/",
+      linkedin: "https://www.linkedin.com/company/suga-s-ai-tech/?viewAsMember=true",
     },
     {
       name: "Nandhakumar M",
@@ -399,9 +402,9 @@ export const careersPage = {
 };
 
 // ─── Contact Page ─────────────────────────────────────────────────────────────
-   
+
 export const contactPage = {
-  
+
   eyebrow: "Contact",
   title: "Tell us what you want to build.",
   description: "Share your challenge, idea, or growth goal and we’ll respond with a practical next step.",

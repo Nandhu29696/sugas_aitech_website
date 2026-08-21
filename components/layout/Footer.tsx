@@ -41,9 +41,9 @@ export function Footer() {
             </a>
           </div>
           <div className="socials">
-            <a href={company.social.linkedin} aria-label="LinkedIn"><Linkedin size={18} /></a>
-            <a href={company.social.instagram} aria-label="Instagram"><Instagram size={18} /></a>
-            <a href={company.social.facebook} aria-label="Facebook"><Facebook size={18} /></a>
+            <a href={company.social.linkedin} target="_blank" aria-label="LinkedIn"><Linkedin size={18} /></a>
+            <a href={company.social.instagram}  aria-label="Instagram"><Instagram size={18} /></a>
+            <a href={company.social.facebook}  aria-label="Facebook"><Facebook size={18} /></a>
           </div>
         </div>
         <div className="footer-links footer-legal-links">

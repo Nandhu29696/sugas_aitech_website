@@ -374,10 +374,9 @@ export default function ContactPage() {
                     defaultValue=""
                   >
                     <option value="">Select your budget range</option>
-                    <option value="Below $5k">Below $5k</option>
-                    <option value="$5k - $10k">$5k - $10k</option>
-                    <option value="$10k - $25k">$10k - $25k</option>
-                    <option value="$25k - $50k">$25k - $50k</option>
+                    <option value="Below $15k">Below $15k</option>
+                    <option value="$15k - $30k">$15k - $30k</option>
+                    <option value="$30k - $50k">$30k - $50k</option>
                     <option value="$50k+">$50k+</option>
                     <option value="Not sure yet">Not sure yet</option>
                   </select>
@@ -478,7 +477,7 @@ export default function ContactPage() {
             </p>
             <div className="socials">
               <a
-                href={company.social.linkedin}
+                href={company.social.linkedin} target="_blank"
                 aria-label="LinkedIn"
               >
                 <Linkedin size={18} />
